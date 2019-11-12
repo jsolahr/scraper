@@ -22,6 +22,10 @@ h2 {
     margin-left: 12px;
     text-align: left;
 }
+h4 {
+    font-size: 12px;
+    color: navy;
+}
 p {
     margin-left: 15px;
     font-family: 'Noto Serif JP', serif;
