@@ -1,0 +1,72 @@
+body {
+    background-color: white;
+    background-image: url("https://www.pendleton-usa.com/dw/image/v2/BBNP_PRD/on/demandware.static/-/Sites-pwm-master-catalog/default/dw4b1b5bd0/images/large/72659_7421_ALT1.jpg?sw=378&sh=474&sm=fit");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;       
+     }
+.jumbotron {
+    text-align: center;
+    font-family: 'Noto Serif JP', serif;
+    color: rgb(10, 57, 119);
+}
+nav {
+    background-color: rgb(10, 57, 119);
+}
+.nav-item {
+    color:white;
+}
+h2 {
+    font-family: 'Noto Serif JP', serif;
+    color: rgb(10, 57, 119);
+    margin-right: 20px;
+    margin-left: 12px;
+    text-align: left;
+}
+p {
+    margin-left: 15px;
+    font-family: 'Noto Serif JP', serif;
+    color: rgb(10, 57, 119);
+}
+p:hover {
+    color: rgb(104, 17, 17);
+}
+
+#wrapper {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+#savenote{
+    background-color: rgb(10, 57, 119);
+    color: white;
+}       
+#articles {
+    display: inline-block;
+    overflow: auto;
+    width: 60%;
+    height: 700px;
+}
+
+#notes {
+    float: right;
+    width: 30%;
+    margin-right: 30px;
+}
+
+textarea,
+input {
+    display: block;
+    width: 100%;
+    background-color: rgb(219, 225, 230);
+}
+
+input {
+    height: 36px;
+    font-size: 24px;
+}
+
+textarea {
+    height: 200px;
+    font-size: 18px;
+}
