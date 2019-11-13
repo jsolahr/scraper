@@ -15,6 +15,11 @@ var db = require("./models");
 
 var PORT = 3000 || process.env.PORT;
 
+//Connect to Mongo
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/pendleton";
+
+mongoose.connect(MONGODB_URI);
+
 // Initialize Express
 var app = express();
 
@@ -27,9 +32,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 // Make public a static folder
 app.use(express.static("public"));
-
-// Connect to the Mongo DB
-mongoose.connect("mongodb://localhost/pendleton", { useNewUrlParser: true });
 
 // Routes
 // A GET route for scraping the website
