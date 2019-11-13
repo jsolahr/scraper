@@ -13,7 +13,7 @@ var cheerio = require("cheerio");
 // Require all models
 var db = require("./models");
 
-var PORT = 3000 || process.env.PORT;
+var PORT = process.env.PORT || 3000;
 
 //Connect to Mongo
 var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/pendleton";
